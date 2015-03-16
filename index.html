@@ -3,9 +3,26 @@
 	<head>
 		<title>Facebook</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="facebook.less">
+		<link rel="stylesheet/less" type="text/less" href="/facebook.less">
+		<script src="/bower_components/less/dist/less.min.js"></script>
 	</head>
 	<body>
-		
+		<div id="header">
+			<a href="/" id="logo">
+				<img src="/img/logo.png">
+			</a>
+			<div id="user-actions">
+				<div class="item friends"></div>
+				<div class="item messages"></div>
+				<div class="item updates"></div>
+			</div>
+			<div id="search">
+				<input type="text" placeholder="Search" />
+				<span id="search-icon"></span>
+			</div>
+		</div>
+		<div id="container">
+			
+		</div>
 	</body>
 </html>
