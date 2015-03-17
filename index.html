@@ -9,31 +9,101 @@
 	<body>
 		<div id="header">
 			<div class="container">
-				<a href="/" id="logo">
-					<img src="img/logo.png">
-				</a>
-				<div id="user-actions">
-					<div class="item friends"></div>
-					<div class="item messages"></div>
-					<div class="item updates"></div>
+				<div class="col-right">
+					<a href="/" id="logo">
+						<img src="img/logo.png">
+					</a>
+					<div id="user-actions">
+						<div class="item friends"></div>
+						<div class="item messages"></div>
+						<div class="item updates"></div>
+					</div>	
 				</div>
 				<div id="search">
-					<input type="text" placeholder="Search" />
-					<span id="search-icon"></span>
+					<input id="search-input" type="text" placeholder="Search" />
+					<label id="search-icon" for="search-input"></label>
 				</div>	
 				<div id="user-toolbar">
 					<img src="media/image1.png" />
 					<div class="items">
 						<div class="item">User Name</div>
-						<div class="item">Find friends</div>
+						<div class="item">Find Friends</div>
 						<div class="item">Home</div>
 						<div class="more"></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="container">
-			
+		<div id="content">
+			<div class="col-right">
+				<div class="section">
+					<div class="profile-image">
+						<img src="media/image-lg1.png" />
+					</div>
+					<div class="profile-tabs">
+						<div class="item">
+							<span class="icon wall"></span>
+							<span class="text">Wall</span>
+						</div>
+						<div class="item">
+							<span class="icon info"></span>
+							<span class="text">Info</span>
+						</div>
+						<div class="item">
+							<span class="icon friend-activity"></span>
+							<span class="text">Friend Activity <span class="new">(1)</span></span>
+						</div>
+						<div class="item">
+							<span class="icon photos"></span>
+							<span class="text">Photos</span>
+						</div>
+						<div class="item">
+							<span class="icon events"></span>
+							<span class="text">Events</span>
+						</div>
+						<div class="item">
+							<span class="icon tabbuilder"></span>
+							<span class="text">Hike FREE Tab Builder</span>
+						</div>
+					</div>	
+				</div>
+				<div class="section">
+					<div class="like-count">
+						<strong>16,376</strong><br />
+						<small>like this</small>
+					</div>
+				</div>
+				<div class="section">
+					<div class="clearfix">
+						<h3>Likes</h3>
+						<a class="see-all" href="#">See All</a>	
+					</div>
+					<div class="liked-pages">
+						<div class="item">
+							<img src="media/fan-page1.png">
+							<span class="text">Fan Page Name</span>
+						</div>
+						<div class="item">
+							<img src="media/fan-page1.png">
+							<span class="text">Fan Page Name</span>
+						</div>
+						<div class="item">
+							<img src="media/fan-page1.png">
+							<span class="text">Fan Page Name</span>
+						</div>
+					</div>
+				</div>
+				<div class="section">
+					<div class="page-actions">
+						<a href="#" class="item">Create a Page</a>
+						<a href="#" class="item">Add to My Page's Favorites</a>
+						<a href="#" class="item">Subscribe via RSS</a>
+						<a href="#" class="item">Unlike</a>
+						<a href="#" class="item">Report Page</a>
+						<a href="#" class="item">Share</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
